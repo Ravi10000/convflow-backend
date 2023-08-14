@@ -4,9 +4,9 @@ const contactFormContentSchema = new mongoose.Schema(
   {
     name: String,
     email: String,
-    title: String,
+    phone: String,
     company: String,
-    regarding: String,
+    title: String,
     message: String,
   },
   { timestamps: true }
